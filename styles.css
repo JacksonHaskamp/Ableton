@@ -1,0 +1,38 @@
+#navbar-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#navbar-logo-image {
+    
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-flow: row space-between;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+.nav-links li {
+    margin: 10px;
+    font-size: 1vw;
+    color: black;
+}
+.nav-links li a{
+    margin: 10px;
+    font-size: 1vw;
+    color: black;
+}
+.end-flex {
+    align-self: flex-end;
+}
+.start-flex {
+    align-self: flex-start;
+}
+
+body {
+    font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
