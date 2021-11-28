@@ -29,9 +29,10 @@
     text-decoration: none;
     
 }
-.nav-links li {
+.nav-links li a{
     margin: 10px;
     font-size: 1vw;
+    text-decoration: none;
     
 }
 .nav-links li a{
@@ -51,6 +52,7 @@ body {
 }
 #free-live-link {
     color: blue;
+    font-size: 1.2em;
 }
 #header-img {
     background-repeat: no-repeat;
@@ -81,4 +83,24 @@ body {
     transform: translate(0, -50%); 
     text-align: center; 
     /*text-shadow: 0 0 15px; */
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+#main-text {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 13vh
+}
+.collage-right-img {
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 50% 50%; 
+    background-image: url(&quot;https://ableton-production.imgix.net/about/photo-1.jpg?dpr=2&amp;fit=crop&amp;h=456&amp;ixjsv=1.1.3&amp;q=50&amp;w=456&quot;);"
+}
+#yellow-bg {
+    background-color: #fbffa7;
+    width: 638px;
+    height: 638px;
 }
