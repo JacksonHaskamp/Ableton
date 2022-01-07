@@ -72,7 +72,7 @@ nav {
   position: relative;
     height: 800px;
     width: 1333px;
-    margin-top: 5vh;
+    margin-top: 35vh;
 }
 .child {
   position: absolute;
@@ -85,8 +85,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
     position: inherit;
-    margin-top: 30vh;
-    margin-top: 30vh;
+    padding: 0px;
 
 }
 #pic-title {
@@ -116,8 +115,8 @@ main {
     justify-content: center;
     
     
-    margin-bottom: 40vh;
-    margin-top: 50vh;
+    margin-bottom: 20vh;
+    margin-top: 10vh;
 }
 #vid-text {
     margin-top: 23vh;
@@ -251,7 +250,7 @@ body{
     min-height: 800px;
     padding-left: 2vw;
     margin-right: 5vw;
-    
+    margin-top: 20vh;
 }
 .footer-secondary-list a {
     padding: 0px 12px 0px 0px;
@@ -261,4 +260,7 @@ body{
     margin-left: auto;
     vertical-align: middle;
     display: inline-block;
+}
+#LPL-text {
+    margin-top: -20vh;
 }
