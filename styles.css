@@ -295,6 +295,7 @@ body{
     margin-top: 40vh;
     justify-content: center;
     text-align: center;
+    margin-bottom: 10vh;
    
 }
 .g {
@@ -344,4 +345,120 @@ body{
 /*    justify-content: center;*/
     text-align: justify;
     
+}
+.audio-pic {
+/*    margin-top: 50vh;*/
+    
+}
+.parent {
+    margin-bottom: 30vh
+}
+body {
+    display: flex;
+    flex-flow: column;
+}
+#audio-pic-section {
+/*    margin-top: 30vh;*/
+    width: 100%;
+    height: 50vh;
+}
+#purple-collage {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45vh 0 65vh 0;
+}
+.purple-box {
+    width: 1066px;
+    height: 933px;
+    background-color: #D5B3FF;
+    
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-content: center;
+    vertical-align: middle;
+    align-items: center;
+    overflow: visible;
+}
+
+#purple-box-img1 {
+    background-image: url(purple-collage-img1.jpeg);
+/*    background-color: red;*/
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    height: 45%;
+    width: 33vw;
+    z-index: 2;
+    margin-left: -9vw;  
+    
+}
+
+#purple-box-img2 {
+    background-image: url(purple-collage-img2.jpeg);
+/*    background-color: red;*/
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    height: 666px;
+    width: 666px;
+    z-index: 2;
+    margin-right: -14.4vw;
+    
+}
+#jobs-teaser {
+    min-width: 1200px;
+    min-height: 666px;
+    margin-right: 9vw;
+    margin-left: 16vh;
+    background-color: #B1C5FF;
+    display: flex;
+    flex-flow: row;
+    align-content:space-around;
+    vertical-align: middle;
+    align-items: center;
+    
+}
+#jobs-teaser-img {
+    background-image: url(jobs-teaser-img.jpeg);
+/*    background-color: red;*/
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    height: 666px;
+    width: 666px;
+}
+.has-arrow:after {
+    content: '\00a0›';
+}
+.jobs-teaser-text-wrapper {
+    text-align:left;
+   display: table-cell;
+
+   padding: 133px;
+    width: 400px;
+    height: 240px;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    
+    
+}
+.jobs-teaser-text-wrapper h1 {
+    font-weight: bold;
+    
+}
+.main-footer__separator::after {
+    content: "";
+    display: block;
+    height: 0;
+    border-top: 2px solid #efefef;
+    position: absolute;
+    left: 0;
+    right: 0;
+  
 }
