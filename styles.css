@@ -244,15 +244,29 @@ body{
 
 #email-input {
     width: 70%;
+    background-color: #EEEEEE;
+    border: none;
+}
+.input-bg {
+ 
+    background: #EEEEEE;
+    
 }
 #footer-form-button {
-    width: 20%;
+    width: 30%;
+    
     
 }
+
 #footer-form{
     display: flex;
+    height: 2.5rem;
+    padding: 0;
+    margin-top: 1rem;
     
-    
+}
+#footer-form > * {
+    border-radius: 0;
 }
 #footer-content {
     width: 100%;
@@ -440,9 +454,10 @@ body {
     text-align:left;
    display: table-cell;
 
-   padding: 133px;
-    width: 400px;
-    height: 240px;
+    padding: 13px;
+    margin-left: 4rem;
+    width: 500px;
+    height: 350px;
     font-size: 1.2rem;
     line-height: 1.4;
     
@@ -462,3 +477,5 @@ body {
     right: 0;
   
 }
+
+
