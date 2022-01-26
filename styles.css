@@ -98,9 +98,10 @@ nav {
     /*text-shadow: 0 0 15px; */
 }
 main {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    
+    flex-wrap: wrap;
+    gap: 1rem;
     width: 100%;
     background-color: white;
     margin-bottom: 10vh;
