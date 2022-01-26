@@ -485,3 +485,10 @@ body {
 }
 
 
+#secondary-links {
+    position: sticky;
+}
+&.hide {
+    transform: translateY(-50px);
+}
+
