@@ -32,6 +32,7 @@
 .nav-links li a{
     margin: 10px;
     font-size: 1vw;
+    font-weight: 500;
     text-decoration: none;
     
 }
@@ -59,7 +60,7 @@
     font-size: 1.2em;
 }
 #header {
-   
+   padding-top: 20px;
 }
 nav {
     
@@ -91,7 +92,10 @@ nav {
 #pic-title {
     color: rgb(253, 89, 72);
     z-index: 2;
-    font-size: 4em;
+    
+    font-size: 8rem;
+    font-weight: 500;
+    line-height: 24px;
     position: absolute; top: 50%; left: 0; right: 0; 
     transform: translate(0, -50%); 
     text-align: center; 
