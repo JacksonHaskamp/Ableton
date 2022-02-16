@@ -1,0 +1,2 @@
+## What is this project?
+This project is a replica of https://www.ableton.com/en/about/ and was made for the purpose of learning web development techniques and to get experience building websites that actually are successful in the real world.
