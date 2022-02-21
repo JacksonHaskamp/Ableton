@@ -1,13 +1,13 @@
 #navbar-container {
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 #navbar-logo-image {
-    
+   margin-right: 2vw;
+  
 }
 #onpage-highlight { 
     color: orange;
