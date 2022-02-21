@@ -271,6 +271,12 @@ body{
     padding-right:0;
     padding-left:0;
 }
+#footer-header {
+    padding-left: 1.4vw;
+    font-weight: 700;
+    width: 188px;
+    height:45px;
+}
 #footer-form-button {
     width: 30%;
     
@@ -290,10 +296,11 @@ body{
 
 #footer-content {
     width: 100%;
-    min-height: 800px;
+    /* min-height: 600px; */
     padding-left: 2vw;
     margin-right: 5vw;
-    margin-top: 20vh;
+    margin-top: 4em;
+    margin-bottom: 4em;
 }
 .footer-secondary-list a {
     padding: 0px 12px 0px 0px;
@@ -375,9 +382,10 @@ body{
     align-self: stretch;
 /*    margin-right: auto;*/
 /*    margin-left: auto;*/
-    margin-top: 20vh;
+    margin-top: 30vh;
 /*    justify-content: center;*/
     text-align: justify;
+    
     
 }
 .audio-pic {
